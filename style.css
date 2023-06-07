@@ -1,0 +1,54 @@
+body {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    color: #fff;
+}
+
+main {
+    margin: 3rem auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title {
+    text-align: center;
+}
+.section1 {
+    background-color: #ffffff50;
+    padding: 0 .5rem .5rem;
+    border-radius: 10px;
+
+}
+
+button{
+    height: 6rem;
+    width: 6rem;
+    font-size: 2.5rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.section2{
+    background-color: #ffffff50;
+    width: 15rem;
+    height: 25rem;
+    border-radius: 10px;
+    padding: 0 1.2rem;
+
+}
+.estadisticas{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: .5rem 1.2rem;
+    height: 6rem;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
